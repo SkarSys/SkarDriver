@@ -1,0 +1,14 @@
+﻿  Building 'SkarDriver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  drv.cpp
+C:\Users\skar\Desktop\ByeSkarDriver\Kernel\drv.cpp(252,44): error C2220: the following warning is treated as an error
+C:\Users\skar\Desktop\ByeSkarDriver\Kernel\drv.cpp(252,44): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+C:\Users\skar\Desktop\ByeSkarDriver\Kernel\drv.cpp(264,12): warning C4189: 'NonPaged': local variable is initialized but not referenced
+C:\Users\skar\Desktop\ByeSkarDriver\Kernel\drv.cpp(263,11): warning C4189: 'SizeInBytes': local variable is initialized but not referenced
+C:\Users\skar\Desktop\ByeSkarDriver\Kernel\drv.cpp(383,17): warning C4459: declaration of 'name' hides global declaration
+  C:\Users\skar\Desktop\ByeSkarDriver\Kernel\drv.cpp(4,16):
+  see declaration of 'name'
+  
+C:\Users\skar\Desktop\ByeSkarDriver\Kernel\drv.cpp(383,23): warning C4459: declaration of 'link' hides global declaration
+  C:\Users\skar\Desktop\ByeSkarDriver\Kernel\drv.cpp(4,22):
+  see declaration of 'link'
+  

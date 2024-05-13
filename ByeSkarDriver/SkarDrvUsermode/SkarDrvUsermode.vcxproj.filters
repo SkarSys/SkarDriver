@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Main">
+      <UniqueIdentifier>{a5361765-46b4-4751-8f5d-0afa00893ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Driver">
+      <UniqueIdentifier>{3f936a37-a9dc-4b71-b5db-7eda426849dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Driver\Communications">
+      <UniqueIdentifier>{bee1f0c4-2a89-4d0c-b864-1515fae88868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Driver\Structures">
+      <UniqueIdentifier>{17ad3fa5-d7ef-44dc-a409-3ca77a512e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Driver\Settings">
+      <UniqueIdentifier>{d2a9902c-b55a-44e7-957f-5e15f3055b82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="communications.h">
+      <Filter>Source\Driver\Communications</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Source\Driver\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Source\Driver\Settings</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
