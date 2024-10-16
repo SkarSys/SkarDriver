@@ -130,7 +130,7 @@ INT32 get_winver() { // as explnained befour this is to get ur winver
 }
 
 UINT64 get_process_cr3(const PEPROCESS pProcess) { // learn some assembly, cr3 is a register and used for virtual tables. btw u should really learn about memory and more abotu winapi, asm, etc!
-	PUCHAR process = (PUCHAR)pProcess;				// these tables hold addresses (like ur address but in memory) and these niggas usually point to other addys (as if there is a signe on ur home saying "go to '123 nigga street that way ->'
+	PUCHAR process = (PUCHAR)pProcess;				// these tables hold addresses (like ur address but in memory) and these usually point to other addys (as if there is a signe on ur home saying "go to '123 skid street that way ->'
 	ULONG_PTR process_dirbase = *(PULONG_PTR)(process + 0x28);
 	if (process_dirbase == 0) {
 		INT32 UserDirOffset = get_winver();
